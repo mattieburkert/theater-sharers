@@ -1,7 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 	<teiHeader xml:lang="en"> 		<fileDesc> 			<titleStmt> 				<title>Sample Document Title</title> 			</titleStmt> 			<publicationStmt> 				<p/> 			</publicationStmt> 			<sourceDesc sameAs="http://www.cwrc.ca"> 				<p>Created from original research by members of CWRC/CSÉC unless 					otherwise noted.</p> 			</sourceDesc> 		</fileDesc> 		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader> 	<text> 		<body> 			<div> 				<head>LMA_E_BERG_CG_L_062_002</head><note>// Transcription made 9/1-9/2  by Michele D. Pflug // Used conventions of paleographic transcription via Heather Wolfe, Folger Shakespeare Library: https://folgerpedia.folger.edu/mediawiki/media/images_pedia_folgerpedia_mw/2/21/Alphabet_Abbreviations.pdf  //-RE graphs silently lowered and "e" italicized//IMG  and folio numbers recorded in brackets</note> 				<p><note>[f. 1 recto; IMG_5140; IMG_5142; IMG_5143]</note>This Indenturr Tripartite made the Sixteenth day of March Anno Domini 1710 and in the Tenth Year of the Reign
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> 	<teiHeader xml:lang="en"> 		<fileDesc> 			<titleStmt> 				<title>Sample Document Title</title> 			</titleStmt> 			<publicationStmt> 				<p/> 			</publicationStmt> 			<sourceDesc sameAs="http://www.cwrc.ca"> 				<p>Created from original research by members of CWRC/CSÉC unless 					otherwise noted.</p> 			</sourceDesc> 		</fileDesc> 		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/LMA_E_BER_CG_L_062_002_transcription.xml?person_annotation_20220916111220188",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-16T18:12:20.188Z",
+	"dcterms:modified": "2022-09-16T18:12:20.188Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Michele Pflug"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/LMA_E_BER_CG_L_062_002_transcription.xml?person_annotation_20220916111220188#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/LMA_E_BER_CG_L_062_002_transcription.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/LMA_E_BER_CG_L_062_002_transcription.xml?person_annotation_20220916111220188#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/100756495/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader> 	<text> 		<body> 			<div> 				<head>LMA_E_BERG_CG_L_062_002</head><note>// Transcription made 9/1-9/2  by Michele D. Pflug // Used conventions of paleographic transcription via Heather Wolfe, Folger Shakespeare Library: https://folgerpedia.folger.edu/mediawiki/media/images_pedia_folgerpedia_mw/2/21/Alphabet_Abbreviations.pdf  //-RE graphs silently lowered and "e" italicized//IMG  and folio numbers recorded in brackets</note> 				
+<p><note>[f. 1 recto; IMG_5140; IMG_5142; IMG_5143]</note>This Indenturr Tripartite made the Sixteenth day of March Anno Domini 1710 and in the Tenth Year of the Reign
 <lb/>of our sovereign Lady Anne by the grace of God of Great Britain France and Ireland Queen defender of the faith &amp;c. Between The most Noble Wriothesley Duke and Earle
 <lb/>of Bedford Marquis of Tavistock Lord Russell Baron Russell of Thornhaugh Baron Howland of Streatham and Knight of the most Noble Order of the Garter of the first part
-<lb/>Charles Killigrew of Somerset House in the Strand Esquire George Morley of London Merchant Margaret Lacy of the parish of St. Martin in the Feilds in the County of Middlesex
+<lb/><persName key="Killigrew, Charles, 1655-1724 or 1725" ref="http://viaf.org/viaf/100756495/" cert="medium" type="real">Charles Killigrew</persName> of Somerset House in the Strand Esquire George Morley of London Merchant Margaret Lacy of the parish of St. Martin in the Feilds in the County of Middlesex
 <lb/>Widow Grace Sheppy of London spinster Mary Napier Widow Executrix of Thomas Napier Esquire deceased Elizabeth Stone Widow Executrix of James Stone late of London
 <lb/>Gentleman deceased Sir John Mordant of Clerkenwell Green Knight Christopher Rich of Grayes Inn Esquire Robert Moreton of the Inner Temple London Esquire
 <lb/>Richard Symes of Greenwitch in the County of Kent Esquire John Chaworth of the parish of Saint Paul Covent Garden in the County of Middlesex Gentleman Francis Stanhope
