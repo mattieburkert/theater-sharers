@@ -1059,10 +1059,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144",
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124850020",
 	"type": "oa:Annotation",
-	"dcterms:created": "2022-09-26T19:48:30.144Z",
-	"dcterms:modified": "2022-09-26T19:48:50.020Z",
+	"dcterms:created": "2022-09-26T19:48:50.020Z",
 	"dcterms:creator": {
 		"@type": [
 			"cwrc:NaturalPerson",
@@ -1072,7 +1071,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144#Target",
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124850020#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
@@ -1086,7 +1085,7 @@
 			"schema:softwareVersion": "1.8.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144#Selector",
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124850020#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p/persName[13]"
 		}
@@ -1102,7 +1101,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "1.8.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
@@ -1110,7 +1110,7 @@
 		<body>
 			<div><pb facs="https://pages.uoregon.edu/mburkert/UKNA_Chancery/NA_Chancery_Pleadings_C5-C11/NA_Chancery_C8/NA_C8-597-28/C%208_597_28.jpg" xml:space="default"/>
 				<head>Jurat <date when="1704-08-22">22<expan>n</expan>d die August 1704</date>
-				<lb/><add place="inline"><persName>O:Keefe</persName></add> The severall Answer of <add place="above"><placeName>Sheffeild</placeName></add> <persName>Anne Syderfin</persName> Widdow on of the Defend<expan>an</expan>ts to the Bill of Comp<expan>lain</expan>ts of <persName type="real" cert="Unknown">S<expan>i</expan>r Edward Smith Barro<expan>ne</expan>t</persName> <persName type="real">W<expan>illia</expan>m Sheires</persName> <persName type="real">Thomas Savory</persName> &amp; <persName type="real">Robert Gower</persName> Compl<expan>ainan</expan>ts
+				<lb/><add place="inline"><persName>O:Keefe</persName></add> The severall Answer of <add place="above"><placeName>Sheffeild</placeName></add> <persName>Anne Syderfin</persName> Widdow on of the Defend<expan>an</expan>ts to the Bill of Comp<expan>lain</expan>ts of <persName type="real">S<expan>i</expan>r Edward Smith Barro<expan>ne</expan>t</persName> <persName type="real">W<expan>illia</expan>m Sheires</persName> <persName type="real">Thomas Savory</persName> &amp; <persName type="real">Robert Gower</persName> Compl<expan>ainan</expan>ts
 					</head>
 				<p>
 					This Defend<expan>an</expan>t Saveing &amp; reserving to herselfe now &amp; att all times hereafter all &amp; all manner of benefitt &amp; advantage of Except<expan>i</expan>on to the manifold incertaintyes insufficiencyes &amp; imperfect<expan>i</expan>ons in the Compl<expan>ainan</expan>ts s<expan>ai</expan>d Bill of Compl<expan>ain</expan>t contained Her Answer thereunto or unto <unclear agent="rubbing">so much</unclear>
