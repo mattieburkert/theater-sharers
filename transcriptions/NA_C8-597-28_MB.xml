@@ -12,25 +12,1118 @@
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926122737749",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:27:37.749Z",
+	"dcterms:modified": "2022-09-26T19:27:37.749Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926122737749#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926122737749#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://vocab.getty.edu/ulan/500272099",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926122844995",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:28:44.995Z",
+	"dcterms:modified": "2022-09-26T19:28:44.995Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926122844995#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926122844995#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q179876",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	},
+	"cwrc:hasPrecision": "cwrc:lowCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926122920086",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:29:20.086Z",
+	"dcterms:modified": "2022-09-26T19:29:20.086Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926122920086#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926122920086#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1704-08-22"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123421349",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:34:21.349Z",
+	"dcterms:modified": "2022-09-26T19:34:21.349Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123421349#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123421349#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q450199",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123449237",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:34:49.237Z",
+	"dcterms:modified": "2022-09-26T19:34:49.237Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123449237#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123449237#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://vocab.getty.edu/ulan/500247094",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123504246",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:35:04.246Z",
+	"dcterms:modified": "2022-09-26T19:35:04.246Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123504246#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123504246#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1511187",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123527352",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:35:27.352Z",
+	"dcterms:modified": "2022-09-26T19:35:27.352Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123527352#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123527352#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/unclear[7]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q84",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	},
+	"cwrc:hasPrecision": "cwrc:lowCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123546322",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:35:46.322Z",
+	"dcterms:modified": "2022-09-26T19:35:46.322Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123546322#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?place_annotation_20220926123546322#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q179351",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	},
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926123625426",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:36:25.426Z",
+	"dcterms:modified": "2022-09-26T19:36:25.426Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926123625426#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?date_annotation_20220926123625426#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "1660-11-15"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123642861",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:36:42.861Z",
+	"dcterms:modified": "2022-09-26T19:36:42.861Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123642861#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123642861#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q450199",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123719542",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:37:19.542Z",
+	"dcterms:modified": "2022-09-26T19:37:19.542Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123719542#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123719542#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/unclear[8]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q450199",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123731612",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:37:31.612Z",
+	"dcterms:modified": "2022-09-26T19:37:31.612Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123731612#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123731612#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[6]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1511187",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123855211",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:38:55.211Z",
+	"dcterms:modified": "2022-09-26T19:38:55.211Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123855211#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926123855211#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[9]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q16202352",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-09-26T19:48:30.144Z",
+	"dcterms:modified": "2022-09-26T19:48:50.020Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "1.8.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20220926124830144#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[13]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q18671403",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "1.8.0"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div><pb facs="https://pages.uoregon.edu/mburkert/UKNA_Chancery/NA_Chancery_Pleadings_C5-C11/NA_Chancery_C8/NA_C8-597-28/C%208_597_28.jpg" xml:space="default"/>
-				<head>Jurat 22<expan>n</expan>d die August 1704
-				<lb/><add place="inline"><persName>O:Keefe</persName></add> The severall Answer of <add place="above"><placeName>Sheffeild</placeName></add> Anne Syderfin Widdow on of the Defend<expan>an</expan>ts to the Bill of Comp<expan>lain</expan>ts of S<expan>i</expan>r Edward Smith Barro<expan>ne</expan>t W<expan>illia</expan>m Sheires Thomas Savory &amp; Robert Gower Compl<expan>ainan</expan>ts
+				<head>Jurat <date when="1704-08-22">22<expan>n</expan>d die August 1704</date>
+				<lb/><add place="inline"><persName>O:Keefe</persName></add> The severall Answer of <add place="above"><placeName>Sheffeild</placeName></add> <persName>Anne Syderfin</persName> Widdow on of the Defend<expan>an</expan>ts to the Bill of Comp<expan>lain</expan>ts of <persName type="real" cert="Unknown">S<expan>i</expan>r Edward Smith Barro<expan>ne</expan>t</persName> <persName type="real">W<expan>illia</expan>m Sheires</persName> <persName type="real">Thomas Savory</persName> &amp; <persName type="real">Robert Gower</persName> Compl<expan>ainan</expan>ts
 					</head>
 				<p>
 					This Defend<expan>an</expan>t Saveing &amp; reserving to herselfe now &amp; att all times hereafter all &amp; all manner of benefitt &amp; advantage of Except<expan>i</expan>on to the manifold incertaintyes insufficiencyes &amp; imperfect<expan>i</expan>ons in the Compl<expan>ainan</expan>ts s<expan>ai</expan>d Bill of Compl<expan>ain</expan>t contained Her Answer thereunto or unto <unclear agent="rubbing">so much</unclear>
 					<gap reason="illegible"/>
 					<lb/>
-					<unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">Def<expan>endan</expan>t is</unclear> advised any wise concernes her to make Answer unto shee this Def<expan>endan</expan>t Answereth and sayth That shee doth believe itt may bee true that his late Majestie King Charles the ffirst did grant such Letters Patents under the Great seale of England bearing <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">such date</unclear><gap reason="illegible"/>
+					<unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">Def<expan>endan</expan>t is</unclear> advised any wise concernes her to make Answer unto shee this Def<expan>endan</expan>t Answereth and sayth That shee doth believe itt may bee true that his late Majestie <persName key="Charles I, King of England" ref="http://vocab.getty.edu/ulan/500272099" cert="high" type="real">King Charles the ffirst</persName> did grant such Letters Patents under the Great seale of <placeName key="Kingdom of England" ref="http://www.wikidata.org/entity/Q179876" cert="high">England<precision match="@ref" precision="low"/></placeName> bearing <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">such date</unclear><gap reason="illegible"/>
 					<lb/>
-					<gap reason="illegible"/><unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">gentleman</unclear> afterwards S<expan>i</expan>r William Davenant in the Bill named with such powers &amp; Authorityes for Erecting &amp; setting up of a Playhouse &amp; Constituteing &amp; appointing a Company of Actors to Act &amp; show playes &amp; other peformances of the stage therein in <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">such a manner as</unclear><gap reason="illegible"/><lb/>
-					<gap reason="illegible"/>for that purpose is menc<expan>i</expan>oned &amp; settforth but for more certainty herein this Def<expan>endan</expan>t craves leave to referr herself to such Letters Patents And this Def<expan>endan</expan>t doth alsoe believe itt may be true that the said S<expan>i</expan>r William Davenant by vertue of the s<expan>ai</expan>d Letters Patents &amp; alsoe <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">of so</unclear><gap reason="illegible"/>
+					<gap reason="illegible"/><unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">gentleman</unclear> afterwards <persName key="William Davenant" ref="http://www.wikidata.org/entity/Q450199" cert="high" type="real">S<expan>i</expan>r William Davenant</persName> in the Bill named with such powers &amp; Authorityes for Erecting &amp; setting up of a Playhouse &amp; Constituteing &amp; appointing a Company of Actors to Act &amp; show playes &amp; other peformances of the stage therein in <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">such a manner as</unclear><gap reason="illegible"/><lb/>
+					<gap reason="illegible"/>for that purpose is menc<expan>i</expan>oned &amp; settforth but for more certainty herein this Def<expan>endan</expan>t craves leave to referr herself to such Letters Patents And this Def<expan>endan</expan>t doth alsoe believe itt may be true that the said <persName key="William Davenant" ref="http://www.wikidata.org/entity/Q450199">S<expan>i</expan>r William Davenant</persName> by vertue of the s<expan>ai</expan>d Letters Patents &amp; alsoe <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">of so</unclear><gap reason="illegible"/>
 					<lb/>
-					<gap reason="illegible"/>from our late soveraigne Lord King Charles the second Constituted &amp; made Thomas Betterton &amp; such other persons as are in the Compl<expan>ainan</expan>ts Bill for that purpose named &amp; their Associates to bee a Company publickly to Act Comedyes Tragedyes and playes and <gap reason="illegible"/><unclear agent="rubbing">London</unclear>
-					<lb/>and Westm<expan>inste</expan>r &amp; the suburbs thereof as in the Bill is settforth And believes Alsoe itt may bee true that by certaine Articles of Agreem<expan>en</expan>t Tripartite bearing date on or about the 15<hi rend="superscript" xml:space="default">th</hi> day of November in the Year of our Lord <hi rend="underline" xml:space="default">1660</hi> &amp; made or menc<expan>i</expan>oned to be made betweene <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">the s<expan>ai</expan>d Sir William Davenant</unclear>
-					<lb/>of the first part the s<expan>ai</expan>d Thomas Betterton Thomas Sheppey Robert Noke James Noke Thomas Lovell John Moreley and Thomas Lillesqu of the second part &amp; Henry Harris of London Painter of the Third part It was as in the Compl<expan>ainan</expan>ts Bill for that purpose <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">menc<expan>i</expan>oned and</unclear><gap reason="illegible"/>
+					<gap reason="illegible"/>from our late soveraigne Lord <persName key="Charles II, King of England and Scotland" ref="http://vocab.getty.edu/ulan/500247094" cert="high" type="real">King Charles the second</persName> Constituted &amp; made <persName key="Thomas Betterton" ref="http://www.wikidata.org/entity/Q1511187" cert="high" type="real">Thomas Betterton</persName> &amp; such other persons as are in the Compl<expan>ainan</expan>ts Bill for that purpose named &amp; their Associates to bee a Company publickly to Act Comedyes Tragedyes and playes and <gap reason="illegible"/><unclear agent="rubbing"><placeName key="London" ref="http://www.wikidata.org/entity/Q84" cert="high">London<precision match="@ref" precision="low"/></placeName></unclear>
+					<lb/>and <placeName key="City of Westminster" ref="http://www.wikidata.org/entity/Q179351">Westm<expan>inste</expan>r<precision match="@ref" precision="medium"/></placeName> &amp; the suburbs thereof as in the Bill is settforth And believes Alsoe itt may bee true that by certaine Articles of Agreem<expan>en</expan>t Tripartite bearing date on or about the <date when="1660-11-15">15<hi rend="superscript" xml:space="default">th</hi> day of November</date> in the Year of our Lord <hi rend="underline" xml:space="default">1660</hi> &amp; made or menc<expan>i</expan>oned to be made betweene <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">the s<expan>ai</expan>d <persName key="William Davenant" ref="http://www.wikidata.org/entity/Q450199" cert="high" type="real">Sir William Davenant</persName></unclear>
+					<lb/>of the first part the s<expan>ai</expan>d <persName key="Thomas Betterton" ref="http://www.wikidata.org/entity/Q1511187" cert="high" type="real">Thomas Betterton</persName> <persName type="real">Thomas Sheppey</persName> <persName type="real">Robert Noke</persName> <persName key="James Nokes" ref="http://www.wikidata.org/entity/Q16202352" cert="medium" type="real">James Noke</persName> <persName type="real">Thomas Lovell</persName> <persName type="real">John Moreley</persName> and <persName type="real">Thomas Lillesqu</persName> of the second part &amp; <persName key="Henry Harris" ref="http://www.wikidata.org/entity/Q18671403" cert="high" type="real">Henry Harris</persName> of London Painter of the Third part It was as in the Compl<expan>ainan</expan>ts Bill for that purpose <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">menc<expan>i</expan>oned and</unclear><gap reason="illegible"/>
 					<lb/> things) Agreed that the s<expan>ai</expan>d Thomas Betterton &amp; the rest of the s<expan>ai</expan>d Company should att one weekes notice to be given them by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant Joyne with the s<expan>ai</expan>d Henry Harris &amp; other men &amp; women then provided or to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant to
 					<lb/> performe Tragedyes Comedyes playes or representations of the stage in a New Theatre then to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant &amp; that when the s<expan>ai</expan>d Companyes were Joyned with other men &amp; women to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">to act &amp; perform</unclear><gap reason="illegible"/>
 					<lb/> Tragedyes Comedyes playes &amp; representac<expan>i</expan>ons in the s<expan>ai</expan>d Theatre to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant That then the s<expan>ai</expan>d Generall receipts (the Generall <add cause="fix" cert="high" evidence="internal" place="above" unit="cm" xml:space="default">Expenses</add> first being deducted) should be divided into 15 equall shares or proportions whereof the said Thomas Betterton 
