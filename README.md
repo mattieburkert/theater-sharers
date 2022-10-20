@@ -46,14 +46,14 @@ All tags for the theater-sharers project derive from MsDesc and TEI. The Folgerp
 
 In the first iteration of encoding, Mattie and Michele decided to focus on encoding the textual features recorded in the semi-diplomatic transcription of the MS Word document. These features would not have been preserved if simply copy and pasted into a text file or XML editor. Tags used in this first iteration include: 
 
-- <lb/> = line break
-- <expan> = expansion of abbreviations
-- <unclear> = unclear or missing text
-- <add> = inter linear insertions
-- <p> = paragraph breaks
-- <note> = notes recorded at the beginning of MS document and in brackets
-- <del> = deletion (strikethrough or any erasure)
-- &amp; = amp
+- `<lb/>` = line break
+- `<expan>` = expansion of abbreviations
+- `<unclear>` = unclear or missing text
+- `<add>` = inter linear insertions
+- `<p>` = paragraph breaks
+- `<note>` = notes recorded at the beginning of MS document and in brackets
+- `<del>` = deletion (strikethrough or any erasure)
+- `&amp;` = amp
 
 In this iteration, we opted for tags that recorded a general, as opposed to a specific, type of feature. For example, we decided to use the <expan> tag to describe any expansion of an abbreviation. We plan to add more specific tags for different types of abbreviations (brevigraphs, contractions, suspensions) at a later date. Similarly, the <unclear> tag denotes questionable or partly legible letters and any gaps, holes, creases, smudges, or deliberate or accidental effacements made to the text. Again, such specifications will be encoded at a later stage. 
 
