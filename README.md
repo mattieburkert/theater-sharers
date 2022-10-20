@@ -28,7 +28,7 @@ Reference images for the project are currently hosted on [Mattie Burkert's Unive
 ### Photograph and Transcription Conventions:
 - Photographs were taken at the National Archives at Kew and the London Metropolitan Archives in London, United Kingdom during July and August 2022. 
 - Transcriptions were taken in September 2022 using MS Word.
-- Transcriptions of the photographs follow the editorial conventions laid out on page 4 of [Heather Wolfe’s Alphabet Book] (https://folgerpedia.folger.edu/mediawiki/media/images_pedia_folgerpedia_mw/7/79/AlphabetBook2020.pdf). The only exception is that “ff” was transcribed as “F”. 
+- Transcriptions of the photographs follow the editorial conventions laid out on page 4 of [Heather Wolfe’s Alphabet Book](https://folgerpedia.folger.edu/mediawiki/media/images_pedia_folgerpedia_mw/7/79/AlphabetBook2020.pdf). The only exception is that “ff” was transcribed as “F”. 
 - Since a single line of the archival document often consisted of several lines in MS Word, two carriage returns are used to separate each manuscript line. 
 - IMG numbers, folio numbers, and notes are recorded in brackets. 
 - Uncertain transcriptions are highlighted; yellow indicates a high degree of uncertainty and blue indicates moderate uncertainty. The source of uncertainty is not recorded in the transcription; it could derive from ambiguous letterforms or any manuscript characteristic that obscures the text (i.e. gaps, holes, creases, smudges, effacement, etc). The highlighted letter “x” is used as a placeholder for the estimated number of ambiguous or missing letters. 
