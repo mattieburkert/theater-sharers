@@ -8,7 +8,7 @@ This repository hosts Microsoft Word and XML files representing the completed an
 
 Reference images for the project are currently hosted on [Mattie Burkert's University of Oregon webspace](https://pages.uoregon.edu/mburkert/). These images are intended for research purposes only and should not be duplicated, reproduced, published, or otherwise reused. 
 
-## Contact Information of Researchers:
+## Contact Information of Researchers
 - Principal Researcher: Dr. Mattie Burkert, Assistant Professor, Department of English, University of Oregon, mburkert@uoregon.edu
 - Research Assistant: Michele Pflug, PhD Candidate, Department of History, University of Oregon, mpflug@uoregon.edu
 
@@ -59,7 +59,7 @@ In this iteration, we opted for tags that recorded a general, as opposed to a sp
 
 Michele opted to encode the documents directly in MS Word, since most of the features recorded there were not preserved in her text editors or Leaf-Writer. Michele encoded one tag at a time in MS Word. The <expan> tag often required multiple proofreadings to capture all the abbreviations. She also did a find and replace action of the “&” symbol to replace it with “&amp;”. Then the encoded document was copied and pasted into the open source text editor Visual Studio Code for verification. Edits were made in the text editor to validate the code. The validated code was then uploaded to Leaf-Writer via copy and paste. Once in Leaf-Writer, the document was spot checked for any errors in spacing and then uploaded to the Github repository theater-sharers via Leaf-Writer. 
 
-## Recommended next steps: 
+## Recommended next steps
 1. Bibliographic descriptions of manuscripts
 2. TEI headers for XML files 
 3. Convert image numbers and folio numbers recorded in <note> tags to the appropriate tags
