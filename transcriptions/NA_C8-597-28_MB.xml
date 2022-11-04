@@ -1105,6 +1105,84 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20221104114613944",
+	"type": "oa:Annotation",
+	"dcterms:created": "2022-11-04T18:46:13.944Z",
+	"dcterms:modified": "2022-11-04T18:46:13.944Z",
+	"dcterms:creator": {
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Mattie Burkert"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20221104114613944#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/mattieburkert/theater-sharers/main/transcriptions/NA_C8-597-28_MB.xml?person_annotation_20221104114613944#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/persName[14]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q18671403",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.2.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
@@ -1124,7 +1202,7 @@
 					<gap reason="illegible"/>from our late soveraigne Lord <persName key="Charles II, King of England and Scotland" ref="http://vocab.getty.edu/ulan/500247094" cert="high" type="real">King Charles the second</persName> Constituted &amp; made <persName key="Thomas Betterton" ref="http://www.wikidata.org/entity/Q1511187" cert="high" type="real">Thomas Betterton</persName> &amp; such other persons as are in the Compl<expan>ainan</expan>ts Bill for that purpose named &amp; their Associates to bee a Company publickly to Act Comedyes Tragedyes and playes and <gap reason="illegible"/><unclear agent="rubbing"><placeName key="London" ref="http://www.wikidata.org/entity/Q84" cert="high">London<precision match="@ref" precision="low"/></placeName></unclear>
 					<lb/>and <placeName key="City of Westminster" ref="http://www.wikidata.org/entity/Q179351">Westm<expan>inste</expan>r<precision match="@ref" precision="medium"/></placeName> &amp; the suburbs thereof as in the Bill is settforth And believes Alsoe itt may bee true that by certaine Articles of Agreem<expan>en</expan>t Tripartite bearing date on or about the <date when="1660-11-15">15<hi rend="superscript" xml:space="default">th</hi> day of November</date> in the Year of our Lord <hi rend="underline" xml:space="default">1660</hi> &amp; made or menc<expan>i</expan>oned to be made betweene <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">the s<expan>ai</expan>d <persName key="William Davenant" ref="http://www.wikidata.org/entity/Q450199" cert="high" type="real">Sir William Davenant</persName></unclear>
 					<lb/>of the first part the s<expan>ai</expan>d <persName key="Thomas Betterton" ref="http://www.wikidata.org/entity/Q1511187" cert="high" type="real">Thomas Betterton</persName> <persName type="real">Thomas Sheppey</persName> <persName type="real">Robert Noke</persName> <persName key="James Nokes" ref="http://www.wikidata.org/entity/Q16202352" cert="medium" type="real">James Noke</persName> <persName type="real">Thomas Lovell</persName> <persName type="real">John Moreley</persName> and <persName type="real">Thomas Lillesqu</persName> of the second part &amp; <persName key="Henry Harris" ref="http://www.wikidata.org/entity/Q18671403" cert="high" type="real">Henry Harris</persName> of London Painter of the Third part It was as in the Compl<expan>ainan</expan>ts Bill for that purpose <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">menc<expan>i</expan>oned and</unclear><gap reason="illegible"/>
-					<lb/> things) Agreed that the s<expan>ai</expan>d Thomas Betterton &amp; the rest of the s<expan>ai</expan>d Company should att one weekes notice to be given them by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant Joyne with the s<expan>ai</expan>d Henry Harris &amp; other men &amp; women then provided or to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant to
+					<lb/> things) Agreed that the s<expan>ai</expan>d Thomas Betterton &amp; the rest of the s<expan>ai</expan>d Company should att one weekes notice to be given them by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant Joyne with the s<expan>ai</expan>d <persName key="Henry Harris" ref="http://www.wikidata.org/entity/Q18671403">Henry Harris</persName> &amp; other men &amp; women then provided or to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant to
 					<lb/> performe Tragedyes Comedyes playes or representations of the stage in a New Theatre then to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant &amp; that when the s<expan>ai</expan>d Companyes were Joyned with other men &amp; women to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant <unclear agent="rubbing" cert="high" evidence="internal" unit="cm" xml:space="default">to act &amp; perform</unclear><gap reason="illegible"/>
 					<lb/> Tragedyes Comedyes playes &amp; representac<expan>i</expan>ons in the s<expan>ai</expan>d Theatre to bee provided by the s<expan>ai</expan>d S<expan>i</expan>r William Davenant That then the s<expan>ai</expan>d Generall receipts (the Generall <add cause="fix" cert="high" evidence="internal" place="above" unit="cm" xml:space="default">Expenses</add> first being deducted) should be divided into 15 equall shares or proportions whereof the said Thomas Betterton 
 					<lb/> the afores<expan>ai</expan>d other persons partyes to the s<expan>ai</expan>d Articles &amp; to Act as afores<expan>ai</expan>d were to have amongst them for their Acting five of the ffifteen parts or shares of the said receipts (first deducting out of the s<expan>ai</expan>d Generall receipts the Generall Expenses &amp; Charges of the s<expan>ai</expan>d Theatre
