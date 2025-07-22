@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Blank Document Template</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Collaboratory for Writing and Research on Culture (CWRC https://cwrc.ca) and Linked Editing Academic Framework (LEAF https://leaf-vre.org).</publisher>
+				<availability>
+					<licence>Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<p>This template was created by members of CWRC and LEAF.</p>				
+			</sourceDesc>		
+		</fileDesc>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
+			<projectDesc>
+				<p>This template is made available for use with the LEAF-Writer semantic editor.</p>
+			</projectDesc>		
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2025-06-04" who="diane_jakacki">Revised blank template for use with LEAF-Writer editor.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<p>Some text here.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
